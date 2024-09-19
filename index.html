@@ -30,8 +30,38 @@
      </div>
 
     <!-- ******** Form *********** -->
-     <form action="">
-
+     <form class="container" action="">
+        <!-- ************ Login form************* -->
+         <div class="log">
+            <div class="login">
+                <div class="first">
+                    <div class="enter">Login</div>
+                    <div class="reg">Register</div>
+                </div>
+                <div class="input">
+                    <input type="text" name="name" id="name">
+                    <input type="text" name="password" id="password">
+                    <div class="input">Login</div>
+                </div>
+            </div>
+            <p>Forgot your password?</p>
+         </div>
+         <!-- *********** Register*********** -->
+        <div class="register">
+            <div class="first">
+                <div class="enter">Login</div>
+                <div class="reg">Register</div>
+            </div>
+            <div class="input">
+                <span class="error"></span>
+                <input type="text" name="afa" id="afa" placeholder="Username">
+                <input type="email" name="email" id="email" placeholder="E-Mail (no confirmation needed)">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <input type="password" name="confirm password" id="confirm password" placeholder="Confirm Password">
+                <div class="input">Register</div>
+                <span class="error"></span>
+            </div>
+        </div>
      </form>
     </div> 
     <script src="/JS/app.js"></script> 

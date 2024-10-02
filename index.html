@@ -23,9 +23,9 @@
             <div class="green">4K</div>
             <div>Trending</div>
             <div>Browse Movies</div>
-            <div class="white">Login</div>
+            <div class="white enter" id="log">Login</div>
             <div>|</div>
-            <div class="white">Register</div>
+            <div class="white reg" id="reg">Register</div>
         </div>
      </div>
 
@@ -38,9 +38,10 @@
                     <div class="enter">Login</div>
                     <div class="reg">Register</div>
                 </div>
+                <span class="empty"></span>
                 <div class="input">
-                    <input type="text" name="name" id="name" placeholder="Username or Email">
-                    <input type="text" name="password" id="password" placeholder="Password">
+                    <div class="bi bi-person-fill"></div><input type="text" name="name" id="name" placeholder="Username or Email">
+                    <i class="bi bi-lock-fill"></i><input type="text" name="password" id="password" placeholder="Password">
                     <div class="put">Login</div>
                 </div>
             </div>
@@ -58,10 +59,11 @@
                 <input type="email" name="email" id="email" placeholder="E-Mail (no confirmation needed)">
                 <input type="password" name="password" id="password" placeholder="Password">
                 <input type="password" name="confirm password" id="confirm password" placeholder="Confirm Password">
+                <span class="error"><em>By clicking Register, you agree to our <i>Terms and Conditions</i></em></span>
                 <div class="input">Register</div>
-                <span class="error"></span>
             </div>
         </div>
+    </div>
     </form>
     </div> 
     <script src="/JS/app.js"></script> 
